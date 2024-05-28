@@ -1,4 +1,4 @@
-:root {
+/*:root {
     font-size: 20px;
 }
 
@@ -88,4 +88,18 @@ button:hover {
     background: black;
     color: white;
     cursor: pointer;
+}
+*/
+
+.product-card{
+    width: 200px;
+    height: 350px;
+}
+
+img{
+    width: 100%;
+}
+
+product-image{
+    background-color:#f5cf2d ;
 }

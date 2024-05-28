@@ -1,4 +1,4 @@
-:root {
+/*:root {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -24,4 +24,41 @@ aside {
     background: rgb(190, 24, 24);
     border-radius: 999rem;
     margin: auto;
+}
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+
+section {
+    box-shadow: 0 0 3rem rgba(0,0,0,.1);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right:20vh;
+    padding-left:20vh;
+    background-color: white;
+
+}
+
+aside{
+    background: rgb(255, 60, 0);
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    
+
 }
