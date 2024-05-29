@@ -1,4 +1,4 @@
-:root {
+/* :root {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -37,4 +37,53 @@ nav a.login {
 nav a.login:hover {
     color: #222;
     border: 1px solid #222;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #eee;
+    margin: 2rem;
+    
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+}
+
+
+#imgLogo{
+    width: 20%;
+}
+nav li{
+    margin: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #999;
+}
+
+
+.login{
+    padding:0.5rem 2rem 0.5rem 2rem;
+    border: 1px solid #999;
+
+}
+
+nav a:hover{
+    font-size: 45px;
+    color: black;
+}
+
+.login:hover{
+    background-color: green;
+    color: white;
 }
