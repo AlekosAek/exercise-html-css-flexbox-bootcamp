@@ -1,4 +1,4 @@
-:root {
+/* :root {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -20,4 +20,36 @@ nav a {
 nav a:hover {
     background: #666;
     color: #ccc;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+
+ padding: 50px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;  
+    list-style-type: none;
+}
+nav li{
+    padding: 1rem;
+    background-color: #eee;
+  
+}
+nav li:first-child{
+    background-color: gray;
+    color:white;
+
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
 }
