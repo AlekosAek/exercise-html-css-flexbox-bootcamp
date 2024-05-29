@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     background: rgb(212, 212, 212);
     height: 100vh;
@@ -53,4 +53,63 @@ article.card {
 
 .card footer a.active {
     background: rgba(0,0,0,.8);
+} */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color:#D4D4D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+article{
+    height:70vh;
+  width: 70vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+article>p{
+    width: 50%;
+}
+cite{
+    text-align: center;
+    font-size: 1rem;
+}
+
+aside ul{
+    display: flex;
+    list-style-type: none;
+
+}
+aside ul li{
+    margin:1rem;
+}
+
+.name{
+    text-align: center;
+    margin-top: 1rem;
+    color: rgba(0,0,0,.8);
+}
+.bullet{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+}
+
+.bullet1:focus,
+.bullet1:active {
+ color: rgb(0, 0, 0);
 }
