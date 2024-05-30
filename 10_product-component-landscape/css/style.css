@@ -1,4 +1,4 @@
-:root {
+/* :root {
     font-size: 20px;
 }
 
@@ -83,4 +83,103 @@ button:hover {
     background: black;
     color: white;
     cursor: pointer;
+} */
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+body {
+    background-color: #D4D4D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+.product {
+    width: 60vw;
+    display: flex;
+}
+
+figure {
+    background-color: #FECF2F;
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+figure img {
+    width: 60%;
+    margin: auto;
+
+}
+
+figcaption {
+    align-self: end;
+    padding-bottom: 2vh;
+    padding-right: 2vh;
+    font-size: 4vw;
+    font-weight: bold;
+
+}
+
+.infoProduct {
+    padding-left: 2vh;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+}
+
+article>section>p:first-child {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 10vh;
+    flex: 1;
+}
+
+article>section>p:nth-child(2) {
+    font-size: 2rem;
+    font-weight: bold;
+    flex:3;
+}
+
+article>section>p:nth-child(3) {
+    font-size: 2rem;
+    margin-top: 2vh;
+    font-weight: 400;
+    color: gray;
+    flex: 20;
+}
+.buttonClass{
+    align-self: flex-end;
+    padding-bottom: 2vh;
+    padding-right: 2vh;
+}
+button{
+    appearance: none;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: .75rem 1rem;
+    color: black;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+} 
