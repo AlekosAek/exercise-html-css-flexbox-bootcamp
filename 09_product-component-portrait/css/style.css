@@ -91,7 +91,7 @@ button:hover {
 }
 */
 
-.product-card{
+/* .product-card{
     width: 200px;
     height: 350px;
 }
@@ -102,4 +102,79 @@ img{
 
 product-image{
     background-color:#f5cf2d ;
+} */
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#D4D4D4;
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100vw;
+}
+figure{
+    background-color: #FECF2F;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 40vh;
+}
+figure img{
+    width: 70vw;
+    height: 30vh;  
+}
+
+figcaption{
+    align-self: end;
+    font-size: 2.2vw;
+    color: #FEE17C;
+    margin-bottom: 2vh;
+}
+
+.infoProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article>section>p:first-child{
+    width: 80vw;
+    font-size: 5vh;
+    font-weight: bold;
+}
+article>section>p:nth-child(2)
+{
+    width: 80vw;
+    font-size: 4vh;
+    font-weight: bold;
+}
+article>section>p:nth-child(3){
+    width: 80vw;
+    font-size: 2vh;
+    margin-top: 2vh;
+    font-weight:400;
+    color: gray;
+}
+
+article>section>p:nth-child(4){
+    width: 80vw;
+    text-align: center;
+    font-size: 8vh;
+    font-weight: bold;
+    margin-top: 5vh;
 }
